@@ -53,7 +53,8 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   
   ▢ _${usedPrefix}menuaudios_
   ▢ _${usedPrefix}menuanimes_
-  ▢ _${usedPrefix}labiblia_ (🔞)
+  ▢ _${usedPrefix}menu18_
+  ▢ _${usedPrefix}menuff_
   ▢ _${usedPrefix}lang_ ${tradutor.texto2}
   ▢ _${usedPrefix}langgroup_ ${tradutor.texto3}
   ▢ _${usedPrefix}glx_ ${tradutor.texto4 /** Este menú permanecerá aquí por un corto tiempo, hasta que la gente sepa */}
@@ -70,9 +71,9 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}owner_
   ▢ _${usedPrefix}script_
   ▢ _${usedPrefix}reporte *<txt>*_
-  ▢ _${usedPrefix}join *<wagp_url>*_
+  ▢ _${usedPrefix}join *<link>*_
   ▢ _${usedPrefix}fixmsgespera_
-  ▢ _bot_ (sin prefijo)
+  ▢ _bot (sin prefijo)_
 
 
   ${tradutor.texto1[12]}
@@ -83,26 +84,11 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}token_
   ▢ _${usedPrefix}stop_
   ▢ _${usedPrefix}bots_
-  ▢
-  ▢ _${usedPrefix}enable restrict_
-  ▢ _${usedPrefix}disable restrict_
-  ▢ _${usedPrefix}enable autoread_
-  ▢ _${usedPrefix}disable autoread_
-  ▢ _${usedPrefix}enable antispam_
-  ▢ _${usedPrefix}disable antispam_
-  ▢ _${usedPrefix}enable anticall_
-  ▢ _${usedPrefix}disable anticall_
-  ▢ _${usedPrefix}enable modoia_
-  ▢ _${usedPrefix}disable modoia_
-  ▢ _${usedPrefix}enable audios_bot_
-  ▢ _${usedPrefix}disable audios_bot_
-  ▢ _${usedPrefix}enable antiprivado_
-  ▢ _${usedPrefix}disable antiprivado_
   
-
+  
   ${tradutor.texto1[13]}
 
-  ▢ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+  ▢ _${usedPrefix}mates *<easy / medium / extreme>*_
   ▢ _${usedPrefix}fake *<txt1> <@tag> <txt2>*_
   ▢ _${usedPrefix}ppt *<papel / tijera /piedra>*_
   ▢ _${usedPrefix}prostituto *<nombre / @tag>*_
@@ -138,8 +124,7 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}suerte
   ▢ _${usedPrefix}wordfind_
   ▢ _${usedPrefix}glx_ (RPG Mundo)
-
-
+/*
 
   ${tradutor.texto1[14]}
 
@@ -168,7 +153,7 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}enable *modoadmin*_
   ▢ _${usedPrefix}disable *modoadmin*_
   ▢ _${usedPrefix}enable *antidelete*_
-  ▢ _${usedPrefix}disable *antidelete*_
+  ▢ _${usedPrefix}disable *antidelete*_*/
 
 
   ${tradutor.texto1[15]}
@@ -203,8 +188,8 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
  ▢ _${usedPrefix}stickerpack *<url>*_
  ▢ _${usedPrefix}wallpaper *<txt>*_ 
  ▢ _${usedPrefix}dapk2 *<url>*_
- ▢ _${usedPrefix}xnxxdl *<url>*_ (🔞)
- ▢ _${usedPrefix}xvideosdl *<url>*_ (🔞)
+ ▢ _${usedPrefix}xnxxdl *<url>*_
+ ▢ _${usedPrefix}xvideosdl *<url>*_
 
 
  ${tradutor.texto1[16]}
