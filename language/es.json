@@ -2902,7 +2902,7 @@
             ]
         },
         "menu_menu": {
-            "texto1": [
+            /*"texto1": [
                 "𝙎𝙃𝘼𝘿𝙊𝙒 𝘽𝙊𝙏 - 𝙎𝙓",
                 "▢ *Hola,*",
                 "_*< TUS ESTADÍSTICAS />*_",
@@ -2912,7 +2912,7 @@
                 "▢ *Diamantes:* ",
                 "▢ *MysticCoins:* ",
                 "▢ *Tokens:* ",
-                "▢ *Premium:* ",
+                "▢ *Premium:* ",*/
                 " _*< LISTA DE MENUS />*_",
                 "_*< SOBRE EL BOT />*_",
                 "_*< SUB-BOTS />*_",
