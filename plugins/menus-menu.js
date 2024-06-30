@@ -34,14 +34,20 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭───「 *SHADOW BOT* 」───╮
-│
-│ⓘ *Hola, ${taguser}*
-│
-│▢ Creador: Cristian Escobar
-│▢ Número: +51927238856
-│▢ Tiempo: ${time}
-╰──────────────────╯
+    const str = `${tradutor.texto1[0]}
+
+${tradutor.texto1[1]} ${taguser}
+
+${tradutor.texto1[2]}
+
+${tradutor.texto1[3]} ${level}
+${tradutor.texto1[4]} ${exp}
+${tradutor.texto1[5]} ${role}
+${tradutor.texto1[6]} ${limit}
+${tradutor.texto1[7]} ${money}
+${tradutor.texto1[8]} ${joincount}
+${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+ ${readMore}
 
  ${tradutor.texto1[10]}
   
