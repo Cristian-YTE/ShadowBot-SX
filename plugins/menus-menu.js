@@ -38,27 +38,26 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
 
 ${tradutor.texto1[1]} ${taguser}
 
-${traductor.texto1[2]}
-▢ ${tradutor.texto1[3]} ${level}
-▢ ${tradutor.texto1[4]} ${exp}
-▢ ${tradutor.texto1[5]} ${role}
-▢ ${tradutor.texto1[6]} ${limit}
-▢ ${tradutor.texto1[7]} ${money}
-▢ ${tradutor.texto1[8]} ${joincount}
-▢ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+${tradutor.texto1[2]}
 
+${tradutor.texto1[3]} ${level}
+${tradutor.texto1[4]} ${exp}
+${tradutor.texto1[5]} ${role}
+${tradutor.texto1[6]} ${limit}
+${tradutor.texto1[7]} ${money}
+${tradutor.texto1[8]} ${joincount}
+${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
 
  ${tradutor.texto1[10]}
   
   ▢ _${usedPrefix}menuaudios_
   ▢ _${usedPrefix}menuanimes_
-  ▢ _${usedPrefix}menu18_
-  ▢ _${usedPrefix}menuff_
+  ▢ _${usedPrefix}labiblia_ (🔞)
   ▢ _${usedPrefix}lang_ ${tradutor.texto2}
   ▢ _${usedPrefix}langgroup_ ${tradutor.texto3}
   ▢ _${usedPrefix}glx_ ${tradutor.texto4 /** Este menú permanecerá aquí por un corto tiempo, hasta que la gente sepa */}
-
+      
  
   ${tradutor.texto1[11]}
 
