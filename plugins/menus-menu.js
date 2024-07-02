@@ -35,8 +35,12 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭───「 ${tradutor.texto1[0]} 」───╮
-
+│
 │${tradutor.texto1[1]} ${taguser}
+│
+│▢ *Creador:* Cristian Escobar
+│▢ *Número:* +51 927 238 856
+╰──────────────────╯
 
 ${tradutor.texto1[2]}
 
